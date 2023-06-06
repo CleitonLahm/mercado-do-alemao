@@ -1,0 +1,99 @@
+
+.food-section {
+  padding: 40px 0;
+}
+
+.food-card {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  text-align: center;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+.food-card:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.food-card.promo-card {
+  background-color: #f8f8f8;
+}
+
+.food-card .card-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.market-section {
+  background-color: #f8f8f8;
+  padding: 40px 0;
+}
+
+.market-info {
+  text-align: center;
+}
+
+.about-section {
+  padding: 40px 0;
+}
+
+.about-section h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.about-section p {
+  text-align: justify;
+}
+
+.delivery-section {
+  padding: 40px 0;
+  background-color: #f8f8f8;
+}
+
+.delivery-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.delivery-text {
+  text-align: center;
+  margin-top: 20px;
+  color: #555;
+  font-size: 18px;
+}
+
+.contacts-section {
+  padding: 40px 0;
+}
+
+.contacts-section h3 {
+  text-align: center;
+  color: #007bff;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.contact-item .contact-icon {
+  margin-right: 10px;
+  font-size: 24px;
+}
+
+.contact-item .contact-text {
+  font-size: 18px;
+  color: #555;
+}
+
+.contact-text{
+  margin-left: 8px;
+}
